@@ -16,6 +16,7 @@
 		957FAF3E2A261777000929EA /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF3D2A261777000929EA /* UserStatView.swift */; };
 		957FAF402A261B85000929EA /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF3F2A261B85000929EA /* FeedView.swift */; };
 		957FAF422A261B8D000929EA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF412A261B8D000929EA /* FeedCell.swift */; };
+		957FAF442A2636DF000929EA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF432A2636DF000929EA /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		957FAF3D2A261777000929EA /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		957FAF3F2A261B85000929EA /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		957FAF412A261B8D000929EA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		957FAF432A2636DF000929EA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		957FAF342A260839000929EA /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				957FAF432A2636DF000929EA /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				957FAF3B2A260BE4000929EA /* ProfileView.swift in Sources */,
 				957FAF202A260730000929EA /* ContentView.swift in Sources */,
 				957FAF1E2A260730000929EA /* InstagramSwiftUIApp.swift in Sources */,
+				957FAF442A2636DF000929EA /* SearchView.swift in Sources */,
 				957FAF3E2A261777000929EA /* UserStatView.swift in Sources */,
 				957FAF402A261B85000929EA /* FeedView.swift in Sources */,
 				957FAF392A260A7D000929EA /* MainTabView.swift in Sources */,
