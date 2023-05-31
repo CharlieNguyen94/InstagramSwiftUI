@@ -6,12 +6,15 @@ struct SignUpTextComponentView: View {
 	let title: String
 	let description: String
 	let textFieldPlaceholder: String
+	let withSecureField: Bool
 
 	var body: some View {
 		VStack(spacing: 12) {
 			titleView
 			descriptionView
 			textField
+				.textInputAutocapitalization(.never)
+				.modifier(IGTextFieldModifier())
 		}
 		.toolbar {
 			ToolbarItem(placement: .navigationBarLeading) {
@@ -39,10 +42,13 @@ struct SignUpTextComponentView: View {
 			.padding(.horizontal, 24)
 	}
 
+	@ViewBuilder
 	var textField: some View {
-		TextField(textFieldPlaceholder, text: $textFieldText)
-			.textInputAutocapitalization(.never)
-			.modifier(IGTextFieldModifier())
+		if withSecureField {
+			SecureField(textFieldPlaceholder, text: $textFieldText)
+		} else {
+			TextField(textFieldPlaceholder, text: $textFieldText)
+		}
 	}
 }
 
@@ -52,7 +58,8 @@ struct SignUpTextComponentView_Previews: PreviewProvider {
 			textFieldText: .constant(""),
 			title: "Add Your Email",
 			description: "You'll use this email to sign in to your account",
-			textFieldPlaceholder: "Enter your email"
+			textFieldPlaceholder: "Enter your email",
+			withSecureField: false
 		)
 	}
 }

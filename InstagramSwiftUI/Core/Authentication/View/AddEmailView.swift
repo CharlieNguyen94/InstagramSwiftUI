@@ -1,15 +1,16 @@
 import SwiftUI
 
 struct AddEmailView: View {
-	@State private var email = ""
+	@EnvironmentObject var viewModel: RegistrationViewModel
 
 	var body: some View {
 		VStack {
 			SignUpTextComponentView(
-				textFieldText: $email,
+				textFieldText: $viewModel.email,
 				title: "Add your email",
 				description: "You'll use this email to sign in to your account",
-				textFieldPlaceholder: "Enter your email"
+				textFieldPlaceholder: "Enter your email",
+				withSecureField: false
 			)
 
 			CTA

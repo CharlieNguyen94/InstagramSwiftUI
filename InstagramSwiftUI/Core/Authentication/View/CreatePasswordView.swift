@@ -1,15 +1,16 @@
 import SwiftUI
 
 struct CreatePasswordView: View {
-	@State private var password = ""
+	@EnvironmentObject var viewModel: RegistrationViewModel
 
 	var body: some View {
 		VStack {
 			SignUpTextComponentView(
-				textFieldText: $password,
+				textFieldText: $viewModel.password,
 				title: "Create a password",
 				description: "Your password must be at least 6 characters in length.",
-				textFieldPlaceholder: "Password"
+				textFieldPlaceholder: "Password",
+				withSecureField: true
 			)
 
 			CTA

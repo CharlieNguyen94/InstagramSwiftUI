@@ -1,15 +1,16 @@
 import SwiftUI
 
 struct CreateUsernameView: View {
-	@State private var username = ""
+	@EnvironmentObject var viewModel: RegistrationViewModel
 
 	var body: some View {
 		VStack {
 			SignUpTextComponentView(
-				textFieldText: $username,
+				textFieldText: $viewModel.username,
 				title: "Create username",
 				description: "Pick a username for your new account. You can always change it later.",
-				textFieldPlaceholder: "Username"
+				textFieldPlaceholder: "Username",
+				withSecureField: false
 			)
 
 			CTA
