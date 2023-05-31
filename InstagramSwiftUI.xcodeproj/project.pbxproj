@@ -24,6 +24,7 @@
 		957FAF4E2A265584000929EA /* SignUpTextComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */; };
 		957FAF502A274AE4000929EA /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF4F2A274AE4000929EA /* CreatePasswordView.swift */; };
 		957FAF522A274E2B000929EA /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF512A274E2B000929EA /* CompleteSignUpView.swift */; };
+		957FAF542A275BCC000929EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF532A275BCC000929EA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextComponentView.swift; sourceTree = "<group>"; };
 		957FAF4F2A274AE4000929EA /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		957FAF512A274E2B000929EA /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		957FAF532A275BCC000929EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		957FAF2C2A2607DD000929EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				957FAF532A275BCC000929EA /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				957FAF502A274AE4000929EA /* CreatePasswordView.swift in Sources */,
 				957FAF4E2A265584000929EA /* SignUpTextComponentView.swift in Sources */,
 				957FAF3B2A260BE4000929EA /* ProfileView.swift in Sources */,
+				957FAF542A275BCC000929EA /* User.swift in Sources */,
 				957FAF202A260730000929EA /* ContentView.swift in Sources */,
 				957FAF462A26426F000929EA /* LoginView.swift in Sources */,
 				957FAF1E2A260730000929EA /* InstagramSwiftUIApp.swift in Sources */,
