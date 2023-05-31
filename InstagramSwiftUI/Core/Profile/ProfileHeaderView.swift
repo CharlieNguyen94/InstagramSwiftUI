@@ -41,20 +41,24 @@ struct ProfileHeaderView: View {
 			.padding(.horizontal)
 
 			Button {
-
+				
 			} label: {
 				HStack {
 					Spacer()
-					Text("Edit Profile")
+					Text(user.isCurrentUser ? "Edit Profile" : "Follow")
 						.font(.subheadline)
 						.fontWeight(.semibold)
 						.frame(height: 32)
-						.foregroundColor(.black)
+						.foregroundColor(user.isCurrentUser ? .black : .white)
 					Spacer()
 				}
 				.background(
 					RoundedRectangle(cornerRadius: 6)
-						.stroke(.gray, lineWidth: 1)
+						.fill(user.isCurrentUser ? .white : Color(.systemBlue))
+						.overlay(
+							RoundedRectangle(cornerRadius: 6)
+								.stroke(user.isCurrentUser ? .gray : .clear, lineWidth: 1)
+						)
 				)
 				.padding(.horizontal)
 			}
