@@ -39,6 +39,7 @@
 		957FAF6F2A2782CC000929EA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF6E2A2782CC000929EA /* AuthService.swift */; };
 		957FAF732A278421000929EA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF722A278421000929EA /* ContentViewModel.swift */; };
 		957FAF762A27889F000929EA /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF752A27889F000929EA /* RegistrationViewModel.swift */; };
+		957FAF782A2791AA000929EA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF772A2791AA000929EA /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		957FAF6E2A2782CC000929EA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		957FAF722A278421000929EA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		957FAF752A27889F000929EA /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		957FAF772A2791AA000929EA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				957FAF752A27889F000929EA /* RegistrationViewModel.swift */,
+				957FAF772A2791AA000929EA /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				957FAF542A275BCC000929EA /* User.swift in Sources */,
 				957FAF202A260730000929EA /* ContentView.swift in Sources */,
 				957FAF462A26426F000929EA /* LoginView.swift in Sources */,
+				957FAF782A2791AA000929EA /* LoginViewModel.swift in Sources */,
 				957FAF732A278421000929EA /* ContentViewModel.swift in Sources */,
 				957FAF5C2A276D69000929EA /* ProfileHeaderView.swift in Sources */,
 				957FAF1E2A260730000929EA /* InstagramSwiftUIApp.swift in Sources */,
