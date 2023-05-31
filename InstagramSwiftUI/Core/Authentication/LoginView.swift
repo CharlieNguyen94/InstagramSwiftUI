@@ -25,7 +25,7 @@ struct LoginView: View {
 
 				Divider()
 
-				signUpNavLink
+				CTA
 			}
 		}
 	}
@@ -40,20 +40,12 @@ struct LoginView: View {
 	var emailTextField: some View {
 		TextField("Enter your email", text: $email)
 			.textInputAutocapitalization(.never)
-			.font(.subheadline)
-			.padding(12)
-			.background(Color(.systemGray6))
-			.cornerRadius(10)
-			.padding(.horizontal, 24)
+			.modifier(IGTextFieldModifier())
 	}
 
 	var passwordTextField: some View {
 		SecureField("Enter your password", text: $password)
-			.font(.subheadline)
-			.padding(12)
-			.background(Color(.systemGray6))
-			.cornerRadius(10)
-			.padding(.horizontal, 24)
+			.modifier(IGTextFieldModifier())
 	}
 
 	var forgotPasswordButton: some View {
@@ -113,9 +105,10 @@ struct LoginView: View {
 		.padding(.top, 8)
 	}
 
-	var signUpNavLink: some View {
+	var CTA: some View {
 		NavigationLink {
-			Text("Sign up")
+			AddEmailView()
+				.navigationBarBackButtonHidden()
 		} label: {
 			HStack(spacing: 4) {
 				Text("Don't have an account?")

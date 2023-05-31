@@ -18,6 +18,12 @@
 		957FAF422A261B8D000929EA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF412A261B8D000929EA /* FeedCell.swift */; };
 		957FAF442A2636DF000929EA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF432A2636DF000929EA /* SearchView.swift */; };
 		957FAF462A26426F000929EA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF452A26426F000929EA /* LoginView.swift */; };
+		957FAF482A264DCD000929EA /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF472A264DCD000929EA /* AddEmailView.swift */; };
+		957FAF4A2A265336000929EA /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF492A265336000929EA /* IGTextFieldModifier.swift */; };
+		957FAF4C2A265455000929EA /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF4B2A265455000929EA /* CreateUsernameView.swift */; };
+		957FAF4E2A265584000929EA /* SignUpTextComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */; };
+		957FAF502A274AE4000929EA /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF4F2A274AE4000929EA /* CreatePasswordView.swift */; };
+		957FAF522A274E2B000929EA /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF512A274E2B000929EA /* CompleteSignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,12 @@
 		957FAF412A261B8D000929EA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		957FAF432A2636DF000929EA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		957FAF452A26426F000929EA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		957FAF472A264DCD000929EA /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		957FAF492A265336000929EA /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		957FAF4B2A265455000929EA /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextComponentView.swift; sourceTree = "<group>"; };
+		957FAF4F2A274AE4000929EA /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		957FAF512A274E2B000929EA /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				957FAF452A26426F000929EA /* LoginView.swift */,
+				957FAF472A264DCD000929EA /* AddEmailView.swift */,
+				957FAF4B2A265455000929EA /* CreateUsernameView.swift */,
+				957FAF4F2A274AE4000929EA /* CreatePasswordView.swift */,
+				957FAF512A274E2B000929EA /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -188,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				957FAF3D2A261777000929EA /* UserStatView.swift */,
+				957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */,
+				957FAF492A265336000929EA /* IGTextFieldModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -263,11 +281,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				957FAF422A261B8D000929EA /* FeedCell.swift in Sources */,
+				957FAF502A274AE4000929EA /* CreatePasswordView.swift in Sources */,
+				957FAF4E2A265584000929EA /* SignUpTextComponentView.swift in Sources */,
 				957FAF3B2A260BE4000929EA /* ProfileView.swift in Sources */,
 				957FAF202A260730000929EA /* ContentView.swift in Sources */,
 				957FAF462A26426F000929EA /* LoginView.swift in Sources */,
 				957FAF1E2A260730000929EA /* InstagramSwiftUIApp.swift in Sources */,
+				957FAF482A264DCD000929EA /* AddEmailView.swift in Sources */,
+				957FAF4C2A265455000929EA /* CreateUsernameView.swift in Sources */,
 				957FAF442A2636DF000929EA /* SearchView.swift in Sources */,
+				957FAF522A274E2B000929EA /* CompleteSignUpView.swift in Sources */,
+				957FAF4A2A265336000929EA /* IGTextFieldModifier.swift in Sources */,
 				957FAF3E2A261777000929EA /* UserStatView.swift in Sources */,
 				957FAF402A261B85000929EA /* FeedView.swift in Sources */,
 				957FAF392A260A7D000929EA /* MainTabView.swift in Sources */,
