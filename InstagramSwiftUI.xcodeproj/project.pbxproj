@@ -44,6 +44,7 @@
 		957FAF7E2A279EF8000929EA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF7D2A279EF8000929EA /* SearchViewModel.swift */; };
 		957FAF802A288DC5000929EA /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF7F2A288DC5000929EA /* EditProfileView.swift */; };
 		957FAF842A289207000929EA /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF832A289207000929EA /* EditProfileViewModel.swift */; };
+		957FAF862A289CE4000929EA /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF852A289CE4000929EA /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		957FAF7D2A279EF8000929EA /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		957FAF7F2A288DC5000929EA /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		957FAF832A289207000929EA /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		957FAF852A289CE4000929EA /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				957FAF792A279E30000929EA /* UserService.swift */,
+				957FAF852A289CE4000929EA /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				957FAF502A274AE4000929EA /* CreatePasswordView.swift in Sources */,
 				957FAF4E2A265584000929EA /* SignUpTextComponentView.swift in Sources */,
 				957FAF3B2A260BE4000929EA /* ProfileView.swift in Sources */,
+				957FAF862A289CE4000929EA /* ImageUploader.swift in Sources */,
 				957FAF542A275BCC000929EA /* User.swift in Sources */,
 				957FAF202A260730000929EA /* ContentView.swift in Sources */,
 				957FAF462A26426F000929EA /* LoginView.swift in Sources */,
