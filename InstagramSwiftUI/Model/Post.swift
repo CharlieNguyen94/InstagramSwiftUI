@@ -1,11 +1,12 @@
 import Foundation
+import Firebase
 
 struct Post: Identifiable, Hashable, Codable {
 	let id: String
 	let ownerUid: String
 	let caption: String
 	let imageUrl: String
-	let timestamp: Date
+	let timestamp: Timestamp
 	var likes: Int
 	var user: User?
 }
@@ -17,7 +18,7 @@ extension Post {
 			ownerUid: UUID().uuidString,
 			caption: "Straw Hat",
 			imageUrl: "luffy",
-			timestamp: Date(),
+			timestamp: Timestamp(),
 			likes: 30,
 			user: .MOCK_USERS[0]
 		),
@@ -26,7 +27,7 @@ extension Post {
 			ownerUid: UUID().uuidString,
 			caption: "Sword",
 			imageUrl: "zoro",
-			timestamp: Date(),
+			timestamp: Timestamp(),
 			likes: 124,
 			user: .MOCK_USERS[1]
 		),
@@ -35,7 +36,7 @@ extension Post {
 			ownerUid: UUID().uuidString,
 			caption: "Love",
 			imageUrl: "sanji",
-			timestamp: Date(),
+			timestamp: Timestamp(),
 			likes: 112,
 			user: .MOCK_USERS[2]
 		),
@@ -44,7 +45,7 @@ extension Post {
 			ownerUid: UUID().uuidString,
 			caption: "Thunder",
 			imageUrl: "nami",
-			timestamp: Date(),
+			timestamp: Timestamp(),
 			likes: 12,
 			user: .MOCK_USERS[3]
 		),
@@ -53,7 +54,7 @@ extension Post {
 			ownerUid: UUID().uuidString,
 			caption: "Doctor",
 			imageUrl: "chopper",
-			timestamp: Date(),
+			timestamp: Timestamp(),
 			likes: 30,
 			user: .MOCK_USERS[4]
 		)

@@ -248,8 +248,8 @@
 		957FAF372A26087E000929EA /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
-				957FAF5D2A276F20000929EA /* UploadPostView.swift */,
-				957FAF5F2A277ACA000929EA /* UploadPostViewModel.swift */,
+				957FAF8D2A28A792000929EA /* View */,
+				957FAF8C2A28A78D000929EA /* ViewModel */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -342,6 +342,22 @@
 				957FAF552A27623D000929EA /* CurrentUserProfileView.swift */,
 				957FAF5B2A276D69000929EA /* ProfileHeaderView.swift */,
 				957FAF7F2A288DC5000929EA /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		957FAF8C2A28A78D000929EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF5F2A277ACA000929EA /* UploadPostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		957FAF8D2A28A792000929EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF5D2A276F20000929EA /* UploadPostView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
