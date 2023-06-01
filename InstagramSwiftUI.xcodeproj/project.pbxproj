@@ -48,6 +48,8 @@
 		957FAF892A28A30E000929EA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 957FAF882A28A30E000929EA /* Kingfisher */; };
 		957FAF8B2A28A3B8000929EA /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF8A2A28A3B8000929EA /* CircularProfileImageView.swift */; };
 		957FAF8F2A28B8B2000929EA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF8E2A28B8B2000929EA /* FeedViewModel.swift */; };
+		957FAF932A28BEBB000929EA /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF922A28BEBB000929EA /* PostService.swift */; };
+		957FAF972A28C0FB000929EA /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF962A28C0FB000929EA /* PostGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		957FAF852A289CE4000929EA /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		957FAF8A2A28A3B8000929EA /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		957FAF8E2A28B8B2000929EA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		957FAF922A28BEBB000929EA /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		957FAF962A28C0FB000929EA /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 			children = (
 				957FAF792A279E30000929EA /* UserService.swift */,
 				957FAF852A289CE4000929EA /* ImageUploader.swift */,
+				957FAF922A28BEBB000929EA /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -259,11 +264,8 @@
 		957FAF3C2A261757000929EA /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				957FAF3D2A261777000929EA /* UserStatView.swift */,
-				957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */,
-				957FAF492A265336000929EA /* IGTextFieldModifier.swift */,
-				957FAF592A276B89000929EA /* PostGridView.swift */,
-				957FAF8A2A28A3B8000929EA /* CircularProfileImageView.swift */,
+				957FAF952A28C0E5000929EA /* View */,
+				957FAF942A28C0DD000929EA /* ViewModel */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -381,6 +383,26 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		957FAF942A28C0DD000929EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF962A28C0FB000929EA /* PostGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		957FAF952A28C0E5000929EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF3D2A261777000929EA /* UserStatView.swift */,
+				957FAF4D2A265584000929EA /* SignUpTextComponentView.swift */,
+				957FAF492A265336000929EA /* IGTextFieldModifier.swift */,
+				957FAF592A276B89000929EA /* PostGridView.swift */,
+				957FAF8A2A28A3B8000929EA /* CircularProfileImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -463,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957FAF972A28C0FB000929EA /* PostGridViewModel.swift in Sources */,
 				957FAF422A261B8D000929EA /* FeedCell.swift in Sources */,
 				957FAF6F2A2782CC000929EA /* AuthService.swift in Sources */,
 				957FAF7A2A279E30000929EA /* UserService.swift in Sources */,
@@ -488,6 +511,7 @@
 				957FAF5A2A276B89000929EA /* PostGridView.swift in Sources */,
 				957FAF4A2A265336000929EA /* IGTextFieldModifier.swift in Sources */,
 				957FAF3E2A261777000929EA /* UserStatView.swift in Sources */,
+				957FAF932A28BEBB000929EA /* PostService.swift in Sources */,
 				957FAF5E2A276F20000929EA /* UploadPostView.swift in Sources */,
 				957FAF7E2A279EF8000929EA /* SearchViewModel.swift in Sources */,
 				957FAF762A27889F000929EA /* RegistrationViewModel.swift in Sources */,
