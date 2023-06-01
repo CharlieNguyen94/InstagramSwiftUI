@@ -47,6 +47,7 @@
 		957FAF862A289CE4000929EA /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF852A289CE4000929EA /* ImageUploader.swift */; };
 		957FAF892A28A30E000929EA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 957FAF882A28A30E000929EA /* Kingfisher */; };
 		957FAF8B2A28A3B8000929EA /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF8A2A28A3B8000929EA /* CircularProfileImageView.swift */; };
+		957FAF8F2A28B8B2000929EA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF8E2A28B8B2000929EA /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		957FAF832A289207000929EA /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		957FAF852A289CE4000929EA /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		957FAF8A2A28A3B8000929EA /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		957FAF8E2A28B8B2000929EA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,8 +206,8 @@
 		957FAF312A260819000929EA /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				957FAF3F2A261B85000929EA /* FeedView.swift */,
-				957FAF412A261B8D000929EA /* FeedCell.swift */,
+				957FAF902A28B8B6000929EA /* View */,
+				957FAF912A28B8C5000929EA /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -362,6 +364,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		957FAF902A28B8B6000929EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF3F2A261B85000929EA /* FeedView.swift */,
+				957FAF412A261B8D000929EA /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		957FAF912A28B8C5000929EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF8E2A28B8B2000929EA /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -449,6 +468,7 @@
 				957FAF7A2A279E30000929EA /* UserService.swift in Sources */,
 				957FAF502A274AE4000929EA /* CreatePasswordView.swift in Sources */,
 				957FAF4E2A265584000929EA /* SignUpTextComponentView.swift in Sources */,
+				957FAF8F2A28B8B2000929EA /* FeedViewModel.swift in Sources */,
 				957FAF3B2A260BE4000929EA /* ProfileView.swift in Sources */,
 				957FAF862A289CE4000929EA /* ImageUploader.swift in Sources */,
 				957FAF542A275BCC000929EA /* User.swift in Sources */,

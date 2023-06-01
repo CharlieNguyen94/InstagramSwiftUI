@@ -32,7 +32,7 @@ class UploadPostViewModel: ObservableObject {
 			id: postRef.documentID,
 			ownerUid: uid,
 			caption: caption,
-			imageUrl: "",
+			imageUrl: imageUrl,
 			timestamp: Timestamp(),
 			likes: 0
 		)
