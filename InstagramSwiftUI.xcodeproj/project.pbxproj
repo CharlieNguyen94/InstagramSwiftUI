@@ -42,6 +42,8 @@
 		957FAF782A2791AA000929EA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF772A2791AA000929EA /* LoginViewModel.swift */; };
 		957FAF7A2A279E30000929EA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF792A279E30000929EA /* UserService.swift */; };
 		957FAF7E2A279EF8000929EA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF7D2A279EF8000929EA /* SearchViewModel.swift */; };
+		957FAF802A288DC5000929EA /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF7F2A288DC5000929EA /* EditProfileView.swift */; };
+		957FAF842A289207000929EA /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAF832A289207000929EA /* EditProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		957FAF772A2791AA000929EA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		957FAF792A279E30000929EA /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		957FAF7D2A279EF8000929EA /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		957FAF7F2A288DC5000929EA /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		957FAF832A289207000929EA /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,9 +206,8 @@
 		957FAF322A26082B000929EA /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				957FAF3A2A260BE4000929EA /* ProfileView.swift */,
-				957FAF552A27623D000929EA /* CurrentUserProfileView.swift */,
-				957FAF5B2A276D69000929EA /* ProfileHeaderView.swift */,
+				957FAF822A2891F0000929EA /* View */,
+				957FAF812A2891E4000929EA /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -316,6 +319,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		957FAF812A2891E4000929EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF832A289207000929EA /* EditProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		957FAF822A2891F0000929EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957FAF3A2A260BE4000929EA /* ProfileView.swift */,
+				957FAF552A27623D000929EA /* CurrentUserProfileView.swift */,
+				957FAF5B2A276D69000929EA /* ProfileHeaderView.swift */,
+				957FAF7F2A288DC5000929EA /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -408,8 +430,10 @@
 				957FAF782A2791AA000929EA /* LoginViewModel.swift in Sources */,
 				957FAF732A278421000929EA /* ContentViewModel.swift in Sources */,
 				957FAF5C2A276D69000929EA /* ProfileHeaderView.swift in Sources */,
+				957FAF842A289207000929EA /* EditProfileViewModel.swift in Sources */,
 				957FAF1E2A260730000929EA /* InstagramSwiftUIApp.swift in Sources */,
 				957FAF482A264DCD000929EA /* AddEmailView.swift in Sources */,
+				957FAF802A288DC5000929EA /* EditProfileView.swift in Sources */,
 				957FAF4C2A265455000929EA /* CreateUsernameView.swift in Sources */,
 				957FAF442A2636DF000929EA /* SearchView.swift in Sources */,
 				957FAF522A274E2B000929EA /* CompleteSignUpView.swift in Sources */,
