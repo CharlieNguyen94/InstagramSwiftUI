@@ -20,7 +20,7 @@ extension User {
 		.init(
 			id: UUID().uuidString,
 			username: "Luffy",
-			profileImageUrl: "luffy",
+			profileImageUrl: nil,
 			fullname: "Monkey D. Luffy",
 			bio: "Pirate King",
 			email: "luffy@hotmail.com"
@@ -28,7 +28,7 @@ extension User {
 		.init(
 			id: UUID().uuidString,
 			username: "Zoro",
-			profileImageUrl: "zoro",
+			profileImageUrl: nil,
 			fullname: "Zoro Roronoa",
 			bio: "Master Swordsman",
 			email: "zoro@hotmail.com"
@@ -36,15 +36,15 @@ extension User {
 		.init(
 			id: UUID().uuidString,
 			username: "Sanji",
-			profileImageUrl: "sanji",
+			profileImageUrl: nil,
 			fullname: "Sanji Vinsumoku",
 			bio: "Chef",
 			email: "sanji@hotmail.com"
 		),
 		.init(
 			id: UUID().uuidString,
-			username: "Nami",
-			profileImageUrl: "nami",
+			username: "nami",
+			profileImageUrl: nil,
 			fullname: "Nami",
 			bio: "Weather Girl",
 			email: "nami@hotmail.com"
@@ -52,7 +52,7 @@ extension User {
 		.init(
 			id: UUID().uuidString,
 			username: "Chopper",
-			profileImageUrl: "chopper",
+			profileImageUrl: nil,
 			fullname: "Tony Tony Chopper",
 			bio: "Reindeer",
 			email: "chopper@hotmail.com"
